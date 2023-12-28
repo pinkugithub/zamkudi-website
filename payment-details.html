@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment details</title>
+
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <!-- bootstrapt-link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <!-- FIRST-SECTION  -->
+    <section class="payment-first-section">
+        <!-- <div class="container"> -->
+        <div class="d-flex">
+            <div class="col-xl-7 col-lg-7">
+                <div class="payment-first-box">
+                    <div class="payment-logo">
+                        <img src="images/logo 1.png" alt="">
+                    </div>
+
+                    <div class="payment-nav">
+                        <ul class="d-flex">
+                            <li>
+                                <a href="product-popup.html">cart</a>
+                            </li>
+                            <li>
+                                <button id="first-click" class="active">information >></button>
+                            </li>
+                            <li>
+                                <button id="second-click">shipping >></button>
+                            </li>
+                            <li>
+                                <button id="third-click">Payment >></button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <!----- Information ----->
+                        <div id="information">
+                            <div class="payment-first-content d-flex justify-content-space">
+                                <h3>contact</h3>
+                                <h4>Already have an account ?<a href="login.html"><span>log in</span></a></h4>
+                            </div>
+                            <form>
+                                <input type="text" placeholder="Email or mobile phone number" id="text"
+                                    class="payment-input-edit">
+                            </form>
+                            <div class="payment-cheak-box d-flex align-item-center">
+                                <input type="checkbox" id="" class="edit-cheack-box-input">
+                                <label>Email me with news and offers</label>
+                            </div>
+                            <div class="payment-shipping-part">
+                                <div class="payment-shipping-address">
+                                    <h2>shipping addresss</h2>
+                                </div>
+                                <div class="form-section">
+                                    <form>
+                                        <select name="cars" id="cars" class="payment-selection-box">
+                                            <option value="volvo">Country/Region</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="opel">Opel</option>
+                                            <option value="audi">Audi</option>
+                                        </select>
+                                    </form>
+                                    <form class="first-last-name">
+                                        <input type="text" placeholder="First name" class="form-first-name-edit">
+                                        <input type="text" placeholder="Last name" class="form-last-name-edit">
+                                    </form>
+                                    <form>
+                                        <input type="text" placeholder="Address" id="text" class="address-input-edit">
+                                    </form>
+                                    <form>
+                                        <input type="text" placeholder="Apartment, suite, etc.(optional)" id="text"
+                                            class="address-input-edit">
+                                    </form>
+                                    <form>
+                                        <input type="text" id="text" placeholder="city" class="edit-city-input">
+                                        <input type="text" id="text" placeholder="state" class="edit-state-input">
+                                        <input type="text" id="text" placeholder="PIN code" class="edit-PIN-input">
+                                    </form>
+                                    <div class="payment-cheak-box d-flex align-item-center">
+                                        <input type="checkbox" id="" class="edit-cheack-box-input">
+                                        <label>Email me with news and offers</label>
+                                    </div>
+                                    <div class="return-to-cart d-flex align-item-center justify-content-space">
+                                        <div
+                                            class="return-to-cart-first d-flex align-item-center justify-content-space">
+                                            <a href="product-popup.html">
+                                                <img src="images/return.png" alt="">
+                                            </a>
+                                            <h4>Return to cart</h4>
+                                        </div>
+                                        <div class="primary-btn-12">
+                                            <a>
+                                                <button id="continue-shipping">Continue to shipping</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!----- Shipping ---->
+                        <div id="shipping">
+                            <div class="payment-contact-form-1">
+                                <form>
+                                    <input type="text" placeholder="Contact" id="text"
+                                        class="payment-contact-form-1-input-edit">
+                                    <h5>Change</h5>
+
+                                    <input type="text" placeholder="Ship to" id="text"
+                                        class="payment-contact-form-2-input-edit-1">
+                                    <h4>Change</h4>
+                                    <input type="text" placeholder="Contact" id="text"
+                                        class="payment-contact-form-2-input-edit-1">
+                                </form>
+                                <div class="shipping-method-content-1">
+                                    <h1>shipping method</h1>
+                                    <form>
+                                        <input type="text" placeholder="Standard" id="text"
+                                            class="shipping-method-2-edit-input">
+                                        <h3>free</h3>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="return-to-cart d-flex align-item-center justify-content-space">
+                                <div class="return-to-cart-first d-flex align-item-center justify-content-space">
+                                    <img src="images/return.png" id="return-information" style="cursor: pointer;">
+                                    <h4>Return to information</h4>
+                                </div>
+                                <div class="primary-btn-12">
+                                    <button id="continue-payment">Continue to Payment</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------ Payment --- -->
+                        <div id="payment">
+                            <div class="payment-contact-form-1">
+                                <form>
+                                    <input type="text" placeholder="Contact" id="text"
+                                        class="payment-contact-form-1-input-edit">
+                                    <h5>Change</h5>
+                                    <input type="text" placeholder="Contact" id="text"
+                                        class="payment-contact-form-2-input-edit-1">
+                                    <h4>Change</h4>
+                                </form>
+                                <div class="shipping-details-2-box d-flex">
+                                    <div class="shipping-notice-img">
+                                        <img src="images/NOTICE-ICON.png" alt="">
+                                    </div>
+                                    <P>To place a test order, you'll need to use a test payment gateway. Learn more
+                                        about <span>testing orders in development stores.</span></P>
+                                </div>
+                            </div>
+                            <div class="shipping-payment-content">
+                                <h1>payment</h1>
+                                <h5>All transactions are secure and encrypted.</h5>
+                            </div>
+                            <div class="shippng-payment-content-2">
+                                <div class="payment-img">
+                                    <img src="images/payment.png" alt="">
+                                </div>
+                                <h5>This store can't accept payments right now.</h5>
+                            </div>
+
+                            <div class="return-to-cart d-flex align-item-center justify-content-space">
+                                <div class="return-to-cart-first d-flex align-item-center justify-content-space">
+                                    <img src="images/return.png" style="cursor: pointer;"  id="return-shipping">
+                                    <h4>Return to Shipping</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Part -->
+            <div class="col-xl-5 col-lg-5 payment-second-box-edit">
+                <div class="payment-second-box">
+                    <div class="payment-second-box-content d-flex align-item-center justify-content-space">
+                        <div class="payment-second-main-content d-flex align-item-center">
+                            <img src="images/Rectangle 5713.png" alt="">
+                            <div class="payment-second-content">
+                                <h1>the easy bagpack</h1>
+                                <h3>s / darkgoldrod / cotton</h3>
+                            </div>
+                        </div>
+
+                        <h1>₹800.00</h1>
+                    </div>
+
+                    <div class="payment-discount-code d-flex justify-content-space">
+                        <form>
+                            <input type="text" placeholder="Discount code" class="edit-payment-discount-code">
+                        </form>
+                        <div class="primary-btn-13">
+                            <button>Apply</button>
+                        </div>
+                    </div>
+                    <div class="payment-total-part">
+                        <div class="payment-total-section d-flex justify-content-space">
+                            <h2>Subtotal</h2>
+                            <h3>₹800.00</h3>
+                        </div>
+
+                        <div class="payment-total-section d-flex justify-content-space">
+                            <h2>Shipping</h2>
+                            <h3>free</h3>
+                        </div>
+
+                        <div class="payment-total-section d-flex justify-content-space">
+                            <h2>Estimated taxes ?</h2>
+                            <h3>₹9.63</h3>
+                        </div>
+
+                        <div class="payment-total-section-1 d-flex justify-content-space">
+                            <h2>Total</h2>
+                            <h3><span>USD</span>₹800.00</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- bootstrap-bundle-link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+
+
+    <!-- Filter Section or payment system -->
+    <script>
+        const first = document.getElementById('first-click');
+        const second = document.getElementById('second-click');
+        const third = document.getElementById('third-click');
+        const c_shipping = document.getElementById('continue-shipping');
+        const c_payment = document.getElementById('continue-payment');
+        const r_information = document.getElementById('return-information');
+        const r_shipping = document.getElementById('return-shipping');
+        
+        first.addEventListener('click', function ()
+        {   
+            document.getElementById('information').style.display = 'block';
+            document.getElementById('shipping').style.display = 'none';
+            document.getElementById('payment').style.display = 'none';
+
+            document.getElementById('first-click').style.backgroundColor = '#4B2017';
+            document.getElementById('second-click').style.backgroundColor = 'white';
+            document.getElementById('third-click').style.backgroundColor = 'white';
+
+            document.getElementById('first-click').style.color = 'white';
+            document.getElementById('second-click').style.color = 'black';
+            document.getElementById('third-click').style.color = 'black';
+        });
+        second.addEventListener('click', function ()
+        {   
+            document.getElementById('information').style.display = 'none';
+            document.getElementById('shipping').style.display = 'block';
+            document.getElementById('payment').style.display = 'none';
+
+            document.getElementById('first-click').style.backgroundColor = 'white';
+            document.getElementById('second-click').style.backgroundColor = '#4B2017';
+            document.getElementById('third-click').style.backgroundColor = 'white';
+
+            document.getElementById('first-click').style.color = 'black';
+            document.getElementById('second-click').style.color = 'white';
+            document.getElementById('third-click').style.color = 'black';
+        });
+        third.addEventListener('click', function ()
+        {   
+            document.getElementById('information').style.display = 'none';
+            document.getElementById('shipping').style.display = 'none';
+            document.getElementById('payment').style.display = 'block';
+
+            document.getElementById('first-click').style.backgroundColor = 'white';
+            document.getElementById('second-click').style.backgroundColor = 'white';
+            document.getElementById('third-click').style.backgroundColor = '#4B2017';
+
+            document.getElementById('first-click').style.color = 'black';
+            document.getElementById('second-click').style.color = 'black';
+            document.getElementById('third-click').style.color = 'white';
+        });
+
+        // Continue button :-
+        c_shipping.addEventListener('click', function ()
+        {   
+            document.getElementById('information').style.display = 'none';
+            document.getElementById('shipping').style.display = 'block';
+            document.getElementById('payment').style.display = 'none';
+
+            document.getElementById('first-click').style.backgroundColor = 'white';
+            document.getElementById('second-click').style.backgroundColor = '#4B2017';
+            document.getElementById('third-click').style.backgroundColor = 'white';
+
+            document.getElementById('first-click').style.color = 'black';
+            document.getElementById('second-click').style.color = 'white';
+            document.getElementById('third-click').style.color = 'black';
+        });
+        c_payment.addEventListener('click', function ()
+        {   
+            document.getElementById('information').style.display = 'none';
+            document.getElementById('shipping').style.display = 'none';
+            document.getElementById('payment').style.display = 'block';
+
+            document.getElementById('first-click').style.backgroundColor = 'white';
+            document.getElementById('second-click').style.backgroundColor = 'white';
+            document.getElementById('third-click').style.backgroundColor = '#4B2017';
+
+            document.getElementById('first-click').style.color = 'black';
+            document.getElementById('second-click').style.color = 'black';
+            document.getElementById('third-click').style.color = 'white';
+        });
+
+        // Return button :-
+        r_information.addEventListener('click', function ()
+        {   
+            document.getElementById('information').style.display = 'block';
+            document.getElementById('shipping').style.display = 'none';
+            document.getElementById('payment').style.display = 'none';
+
+            document.getElementById('first-click').style.backgroundColor = '#4B2017';
+            document.getElementById('second-click').style.backgroundColor = 'white';
+            document.getElementById('third-click').style.backgroundColor = 'white';
+
+            document.getElementById('first-click').style.color = 'white';
+            document.getElementById('second-click').style.color = 'black';
+            document.getElementById('third-click').style.color = 'black';
+        });
+        r_shipping.addEventListener('click', function ()
+        {   
+            document.getElementById('information').style.display = 'none';
+            document.getElementById('shipping').style.display = 'block';
+            document.getElementById('payment').style.display = 'none';
+
+            document.getElementById('first-click').style.backgroundColor = 'white';
+            document.getElementById('second-click').style.backgroundColor = '#4B2017';
+            document.getElementById('third-click').style.backgroundColor = 'white';
+
+            document.getElementById('first-click').style.color = 'black';
+            document.getElementById('second-click').style.color = 'white';
+            document.getElementById('third-click').style.color = 'black';
+        });
+    </script>
+
+</body>
+
+</html>

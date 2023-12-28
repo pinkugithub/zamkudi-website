@@ -1,0 +1,649 @@
+
+@media (max-width:991px) {
+
+    .navbar .menus { width: auto; }
+    .navbar .menus .navbar-collapse { position: absolute; top: 120px; left: 0; width: 50%; background-color: #fff; padding: 15px; z-index: 10; }
+    /* .navbar .menus .navbar-collapse.show::before { content: ""; width: 100vh; height: 100vh; background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; z-index: 9; } */
+    .dropdown i { color: var(--primary-color) !important; }
+    .dropdown .dropdown-content.active { position: initial; }
+    .navbar .navbar-nav .nav-link { color: var(--primary-color) !important; }
+    .navbar .navbar-brand { padding: 0 0 0 56px; }
+    .navbar .search-btn { width: auto !important; }
+    .navbar .navbar-nav .nav-item.contact-link { display: block; }
+    .navbar .search-btn h3 { display: none; }
+
+    /* second-header */
+
+}
+
+
+/*-------------------------------- mobile 1600px-------------------------------- */
+@media (max-width:1850px){
+.hero-content h1{font-size: 77px;}
+
+/* contact-us page  */
+.contact-content h2{margin-bottom: 17px; margin-top: 44px;}
+.primary-btn-14 button{font-size: 19px; margin: 40px auto;}
+
+
+
+/* collection page  */
+.contact-content p{font-size: 18px;}
+
+/* lookbook page  */
+.look-book-content p{padding: 0 50px;font-size: 17px}
+.primmary-btn-6 {margin-top: 52px;}
+.look-book-content h1{font-size: 48px;}
+
+/* payment-details page  */
+.form-first-name-edit, .form-last-name-edit{width: 49%;}
+.edit-state-input{width: 29%;}
+}
+
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+.contact-content h1{font-size: 41px}
+.contact-content p {font-size: 18px}
+.primary-btn-14 button{font-size: 18px; margin: 40px auto;}
+.contact-form-details h3 {margin-top: 30px;font-size: 20px;}
+.contact-form h1{font-size: 52px;}
+
+/* collection page  */
+.catagories-section-edit{width: 33.333% !important;}
+
+/* lookbook page  */
+.look-book-content h1 {font-size: 33px; }
+
+
+/* about us page  */
+ .about-us-second-content h1{font-size: 38px;}
+ .about-us-second-content p{font-size: 16px;}
+ .primary-btn-6{margin-top: 40px;}
+
+ /* login-page  */
+.login-form{
+    padding: 0 20px;
+}
+
+
+}
+ 
+/* --------------------------------mobile 1280px--------------------------------  */
+
+@media (max-width:1366px) {
+
+    /* home page  */
+    .fourth-second-extra {top: 56px;right: 0;left: 0;text-align: center; }
+    .fourth-second-extra img{margin: 0 0 0 50px;}
+    .hero-content h1{color: white;font-size: 44px; }
+    .primary-btn button{margin-top: 33px;}
+    .second-content h2 {position: absolute;top: 76%;left: 12%;}
+    .navbar-light-1 .navbar-nav .nav-link {font-family: var(--primary-font);font-size: 24px;margin-right: 10px;color: #c86d5b;}
+
+    /* contact-us page  */
+    .contact-content h2{margin-top: 38px; margin-bottom: 21px;}
+    .primary-btn-14 button {font-size: 18px;margin: 25px auto;}
+    .contact-edit-main-form {width: 50%;}
+
+    /* collection page  */
+    .contact-content p {font-size: 16px;}
+    .catagories-first-box-content h5 {font-size: 14px;margin-bottom: 30px;}
+    .catagories-second-box {width: 46%;}
+    .edit-catagoris-input {width: 20px; height: 20px;}
+
+    /* look-book page  */
+    .look-book-hero-img{display: none;}
+    .lookbook-banner-img{display: block;}
+    .edit-lookbook-img-2{transform: translateY(0);}
+    .lookbook-second-content-3{transform: translateY(0);}
+    .edit-lookbook-img-3{transform: translateY(-100px);}
+    .lookbook-second-content-3{transform: translateY(50px);}
+    .edit-lookbook-last-img{transform: translateY(0);}
+    .edit-lookbook-last-img-1{transform: translate(50px ,40px);}
+    .edit-lookbook-last-img-2{transform: translate(50px ,40px);}
+
+    /* payment-details page  */
+    .payment-second-box h1 {font-size: 25px;}
+    .form-first-name-edit, .form-last-name-edit {width: 49%;}
+    .edit-city-input, .edit-state-input, .edit-PIN-input{width: 29.5%;}
+
+    /* about-us page  */
+    .edit-philosophy-img-2 {width: 90%;transform: translate(67px, -200px);}
+    .philoshopy-last-section {transform: translateY(-230px);}
+      .about-us-second-content h1 {font-size: 32px;}
+      .about-us-banner-img{display: block;}
+      .about-red-img{display: none;}
+      .goods-heading h1 , .about-third-section-content h1{font-size: 40px;}
+      .about-third-section-content p{font-size: 18px;}
+
+      /* login-page  */
+      .login-inforation {margin-top: 17px;}
+      .login-inforation h1{font-size: 40px;}
+      .login-inforation h5{font-size: 20px;}
+      .login-form h3{font-size: 25px;}
+      .login-form form img {top: 17px;width: 15px;}
+      form .login-form-input-edit{font-size: 15px;}
+      .primary-btn-9 button{font-size: 18px;}
+      .login-text span{font-size: 12px;}
+      .login-text{margin: 18px 0;}
+
+
+      /* forgot-password page  */
+      .edit-login-information{  margin-top: 111px;}
+
+      /* create-new-password page  */
+      .edit-primary-btn-9 button {
+        padding: 6px 95px;
+      }
+}
+
+
+/* -------------------------------mobile 1024px-------------------------------------  */
+@media (max-width:1199px){
+
+    /* home page  */
+
+    /* .navbar .navbar-brand {padding: 0 0 0 60px;} */
+    .navbar-brand img{width: 90px;}
+    .navbar .navbar-nav .nav-link , .navbar .navbar-nav .nav-link.active{font-size: 15px;}
+    .hero-content h1 {font-size: 47px;}
+    .second-content h2 {position: absolute;top: 78%;left: 14%;}
+    .second-heading h1 , .fashion-journals-heading h1{font-size: 42px;}
+    .second-heading p{font-size: 15px;}
+    .fashion-box-1{height: none;}
+    .fashion-box-1 h2{font-size: 16px;}
+    .fashion-box-1 p{font-size: 15px;}
+    .primary-btn-3 button{margin-top: 24px; font-size: 14px;}
+    .fourth-second-extra{text-align: center; left: 0; right: 0; top: 57px;font-size: 19px;}
+    .fourth-second-extra img {margin: 0 0 0 50px;}
+    .discover-first-part h1{font-size: 37px;}
+    .discover-first-part p{font-size: 18px;}
+    .discover-content p{font-size: 16px;}
+    .best-selling-content h2{font-size: 13px;}
+    
+
+    /* .contact-us -page  */
+    .contact-content h1{font-size: 27px;}
+    .contact-content h2{font-size: 24px; margin-top: 28px;margin-bottom: 13px;}
+    .contact-content p{font-size: 15px;}
+    .primary-btn-14 button {font-size: 16px;margin: 15px auto;}
+    .contact-form h1 {font-size: 40px;}
+    .goods-heading h1{font-size: 44px;}
+
+
+    /* collection page  */
+    .catagories-section-edit-1{width: 33.333% !important; padding: 20px;}
+    .contact-content p {font-size: 13px;}
+    .catagories-second-box{width: 48%;}
+
+    /* lookbook page  */
+    .look-book-content h1{font-size: 28px;}
+    .look-book-content h3{font-size: 20px;padding-top: 36px;}
+    .look-book-content p {padding: 0 30px;font-size: 14px;}
+      .look-book-content h3{margin-bottom: 16px;}
+      .primmary-btn-6 button{font-size: 15px;}
+      .look-book-hero-img{display: none;}
+      .lookbook-banner-img{display: block;}
+      .edit-lookbook-img-2{transform: translate(0 , -40px);}
+      .edit-lookbook-img-3{transform: translate(0 , 0);}
+      .lookbook-second-content-3{transform: translate(0 , 0);}
+      .edit-lookbook-last-img{transform: translate(0 , 0);}
+      .edit-lookbook-last-img-1 {transform: translate(40px, 0);}
+      .edit-lookbook-last-img-2{transform: translate(0 , 0);}
+      .lookbook-second-content h1 , .lookbook-second-content-1 h1 , .lookbook-second-content-3 h1{font-size: 30px;}
+      .lookbook-second-content p , .lookbook-second-content-1 p , .lookbook-second-content-3 p{font-size: 15px;   }
+      .edit-lookbook-img-3 {transform: translate(0 , -50px);}
+      .lookbook-last-img h5{font-size: 21px;}
+     
+    /* product pop-up page  */
+  
+    .product-box-content h4 ,.product-box-content h5 ,.product-box-content-1 h3 , .product-box-content-1 h2 , .product-box-content-1 h4 , .product-box-content-1 span , .product-box-content-1 h5{font-size: 18px;}
+    .product-second-content h1{margin-top: 102px; font-size: 18px;}
+    .second-part-content h2 , .second-part-content h3 , .selection-box-content h1 , .selection-box-content form h1 , .selection-box-content h2{font-size: 18px;}
+    .second-part-total-content  h1 , .second-part-total-content h3{font-size: 15px;}
+    .primary-btn-11 button{font-size: 13px; margin-top: 15px;}
+    .product-box-img {width: 100%;}
+    .product-box-content-1{margin: 20px auto;}
+    .edit-main-box{margin-top: 0;}
+    .product-second-content h1{margin-top: 10px;}
+
+    /* payment-details page  */
+    .payment-first-box{padding: 10px 28px 10px 30px;}
+    .payment-nav ul li a{font-size: 21px;}
+    .payment-second-content h3{font-size: 14px;}
+    .payment-second-box h1 {font-size: 18px;}
+    .edit-city-input, .edit-state-input, .edit-PIN-input{width: 29%;}
+
+    /* shipping-details-2 page  */
+    .payment-nav ul li a{font-size: 18px;}
+    .shipping-details-2-box P{font-size: 17px;}
+    .payment-total-section h2{font-size: 16px;}
+    .payment-total-section-1 h2{font-size: 22px;}
+    .payment-total-section h3{font-size: 17px;}
+
+    /* login-page  */
+    .login-inforation h1{font-size: 37px;}
+    .login-inforation h5{font-size: 20px;}
+    .login-form h3{font-size: 26px;}
+    .login-form{padding: 0 20px;}
+    .login-text span{font-size: 12px;}
+    .border-3{left: 28px;}
+    .border-4{right: 25px;}
+    .login-page-img{display: block;}
+    .login-first-img{display: none;}
+    .login-inforation h1 {font-size: 31px;}
+    .login-inforation h5 {font-size: 16px;}
+    .login-form h3 {font-size: 20px;}
+    .login-form form img {top: 14px;width: 15px;}
+    form .login-form-input-edit {font-size: 13px;}
+    .primary-btn-9 button {font-size: 17px;}
+    .login-text {margin: 15px 0;}
+    .login-accounts p{font-size: 13px;}
+    .login-form {margin: 0 16px; }
+
+    /* create-new-password page  */
+    .edit-primary-btn-9 button {padding: 6px 116px;}
+    .edit-login-information h5 {
+      margin-bottom: 55px;
+    }
+}
+
+
+/*-------------------------------- mobile 767px-------------------------------  */
+@media (max-width:767px){
+    .fashion-box-1 h2 {font-size: 18px;}.fashion-box-1 p{font-size: 15px;}
+}
+
+
+/*------------------------------- mobile 768px----------------------------------   */
+
+@media (max-width:991px){
+
+    .hero-content h3{font-size: 19px;}
+    .hero-content h1{font-size: 28px;}
+    .primary-btn button{font-size: 11px;margin-top: 32px;}
+    .second-content h2 {top: 70%;}
+    .banner-section .carousel .carousel-control-next{right: 11px;}
+    .banner-section .carousel .carousel-control-prev {left: 11px;}
+    .navbar-brand img{width: 80px;}
+    .second-section-edit{width: 50%;}
+    .second-heading p{font-size: 12px;}
+    .second-heading h1{font-size: 30px;}
+    .fashion-journals-heading h1 , .popular-catagories-heqading h1 , .discover-first-part h1{font-size: 40px;}
+    .fashion-box-1 h2{font-size: 19px;}
+    .primary-btn-3 button{margin-top: 21px; padding: 2px 15px;}
+    .primary-btn-3 button span{font-size: 18px;}
+    .second-section-2-edit{width: 33.333%;}
+    .fourth-second-extra {position: absolute;top: 48px;color: white;font-size: 12px;right: 0;left: 0;text-align: center;}
+    .fourth-second-extra h5{font-size: 12px;}
+    .fourth-second-extra img{width: 10%;margin: 0 0 0 40px;}
+    .popular-catagories-heqading p , .discover-first-part p{font-size: 18px;}
+    .popular-first-img img{margin: 20px 0 0 0;}
+    .primary-btn-5 button{margin: 47px 0;}
+    .newsletter-section::before{font-size: 98px;}
+
+    /* contact-us page  */
+
+    .contact-content h1{font-size: 36px;}
+    .contact-content p{font-size: 17px;}
+    .primary-btn-14 button{margin: 40px auto; font-size: 19px;}
+    .goods-section-edit{width: 50%  !important;}
+    .goods-bg::before{background-color: white;}
+    .contact-form-edit{width: 50%;}
+    .contact-form-details h3{font-size: 18px;}
+
+    /* collection page  */
+   .catagories-section-edit{width: 50% !important;}
+
+   /* lookbook page  */
+.edit-lookbook-img-1 {width: 100%; margin-left: 0;}
+.lookbook-side-img-2{display: flex;flex-wrap: wrap;flex-direction: column-reverse;}
+.edit-lookbook-img-2{width: 100%; transform: translate(0 , 0);}
+.lookbook-second-content-3{transform: translate(0 , 0); margin-top: 80px; text-align: center;}
+.edit-lookbook-img-3{transform: translate(0 , 0);}
+.edit-lookbook-img-3{margin-left: 0; width: 100%;}
+.edit-lookbook-last-img{transform: translate(0 , 0); width: 75%;margin: auto;}
+.edit-lookbook-last-img-1{transform: translate(0 , 0);}
+.edit-lookbook-last-img-2{transform: translate(0 , 0);}
+.lookbook-side-img-3{margin-top: 80px;}
+.lookbook-second-content {margin-top: 55px;text-align: center;}
+.lookbook-second-content-1{text-align: center;}
+.primary-btn-8 button{margin: 50px auto;}
+.lookbook-last-section{margin-top: 80px;}
+.edit-lookbook-last-img-1{width: 100%;}
+.edit-lookbook-last-img-2{width: 100%;}
+.lookbook-last-edit{width: 50% !important; margin-top: 50px;}
+.lookbook-last-img{margin-top: 40px;}
+
+/* product-pop-up page  */
+.product-second-content h1 {margin-top: 99px;font-size: 22px;}
+.edit-second-part .second-part-product{margin-top: 80px;}
+
+/* payment details page  */
+.payment-second-box-edit{width: 100% !important;}
+
+
+/* shipping details page  */
+.payment-first-box{width: 100%; padding: 10px 2px 10px 60px; border-right: none;}
+.payment-second-box-edit{width: 100%;}
+
+
+/* shipping-details-2 page  */
+.payment-second-box-edit{width: 100% !important;}
+.payment-first-box{padding: 10px 20px 9px;}
+.payment-second-box{margin-top: 51px;}
+.about-us-second-content h1{font-size: 42px;}
+
+/* about-us page  */
+.edit-philosophy-img-2{transform: translate(0 , 0);}
+.philosophy-content-3{display: flex; flex-wrap: wrap; flex-direction: column-reverse;}
+.philoshopy-last-section{transform: translateY(0);}
+.edit-philosophy-img-1 {width: 100%;}
+.about-third-section-content-2 .second-img{transform: translate(200px, -130px);}
+.newsletter-section-edit {margin-top: 51px;}
+
+/* login page  */
+.login-information-edit{width: 100%;}
+.login-form{padding: 0 20px;   margin: 0 0px;}
+.border-3 {left: 68px;}
+.border-4 {right: 68px;}
+
+/* forgot-password page  */
+.edit-login-information h5 {margin-bottom: 58px;}
+}
+
+
+/*------------------------------- mobile 414px------------------------------------------  */
+@media (max-width:567px){
+    .hero-content h3 {color: var(--heading-color);font-size: 12px;font-family: var(--secodary-font);}
+    .hero-content h1 {color: white;font-size: 22px;font-family: var(--primary-font);}
+    .primary-btn button{margin-top: 10px;font-size: 12px;}
+    .container-fluid{margin-left: 0;}
+    .second-section-width {width: 100%;padding: 10px;}
+    .newsletter-section::before {font-size: 56px;}
+    .best-selling-content h2 {font-size: 14px;}
+    .navbar-brand img{width: 50px;}
+    .navbar .search-btn svg {width: 13px;}
+    .navbar .search-btn svg.account-icon {margin: 0 20px;}
+    .banner-section .carousel .carousel-control-next {width: 21px;height: 10px;position: absolute;top: 50%;right: 0px;transform: translateY(-50%);}
+    .banner-section .carousel .carousel-control-prev {width: 23px;height: 27px;position: absolute;top: 50%;left: 0px;transform: translateY(-50%);}
+    .hero-content h1 {font-size: 14px;}
+    .primary-btn button {font-size: 8px; padding: 5px 12px;}
+    .second-content .line {width: 100px;height: 1px;background-color: white;}
+    .second-content h2 {position: absolute;top: 69%;left: 18%;}
+    .second-content h4{ font-size: 10px;}
+    .popular-catagories-heqading h1{font-size: 33px; text-align: center;}
+    .popular-catagories-heqading p{font-size: 17px; text-align: center;}
+    .discover-first-part h1{font-size: 33px; text-align: center;}
+    .discover-first-part h4 , .second-heading h4{text-align: center; font-size: 16px;}
+    .discover-first-part p , .second-heading p{font-size: 16px; text-align: center;}
+    .primary-btn-5 button{font-size: 12px; margin: auto;}
+    .discover-img{display: block;margin: auto;}
+    .discover-content{text-align: center;}
+    .bestselling-purce-heading h2{text-align: center;}
+    .fashion-journals-heading h1 , .second-heading h1{font-size: 33px; text-align: center;}
+    .fourth-second-extra{position: absolute;right: 0;left: 109px;text-align: center;left: 0;}
+    .fourth-second-extra img{width: 10%; margin: 0 0 0 60px;}
+
+    /* FAQS PAGE  */
+    .frequently-question-section h1{font-size: 34px;}
+    .accordian-main-section button{font-size: 15px;}
+    .accordian-main-section p{font-size: 14px;}
+    .accordion::after {content: '\002B';color: #777;font-size: 30px;float: right;margin-left: 5px;position: absolute;bottom: 0;top: 20px;right: 5px;}
+    .accordian-main-section{position:relative ;}
+    .follow-us-content-img img{width: 20px; margin-right: 10px;}
+    .news-letter-second label{font-size: 13px;}
+    .newsletter {padding-top: 13px;padding-bottom: 13px;}
+    .border-content p{margin: auto; margin-bottom: 10px;}
+
+
+    /* contact-us page  */
+    .contact-form-edit-1{width: 100% !important;}
+    .contact-edit-main-form{width: 100%;}
+    .primary-btn-15 button{font-size: 19px;}
+    .contact-form h1{font-size: 24px;}
+
+    /* collection page  */
+    .catagories-section-edit{width: 100% !important;}
+
+    /* product-pop-up page  */
+    .main-box{  margin-top: 70px;}
+    .product-second-content{margin: auto;}
+    .product-second-content h1{margin-top: 0;}
+    .main-box{margin-top: 27px;}
+    .product-second-content h1 {margin-top: 33px;}
+    .primary-btn-10 button{font-size: 15px;}
+
+    /* clear-cart pop-up page */
+    .empty-section h1{font-size: 35px;}
+
+    /* payment-details page  */
+    .form-first-name-edit{width: 48%;}
+    .edit-city-input , .edit-state-input , .edit-PIN-input{width: 100%;}
+    .payment-second-box h1 {font-size: 13px;}
+
+
+    /* shipping details page  */
+    .payment-first-box {width: 100%;padding: 10px 25px 10px;border-right: none;}
+    .primary-btn-12{margin: auto;margin-top: 50px;}
+    .return-to-cart-first{text-align: center;margin: auto;}
+
+
+    /* shipping-details-2 page  */
+    .payment-nav  ul{padding-left: 0;}
+
+    /* about-us page  */
+    .about-us-second-content h1 , .about-third-section-content h1{font-size: 26px;}
+    .about-us-second-content p {padding: 0 10px;text-align: center;font-size: 16px;}
+    .about-third-section-content p{font-size: 17px;}
+
+    .about-third-section-content-2 .second-img {width: 63%;transform: translate(120px, -50px);}
+    .philosophy-content{margin-left: 0;}
+    .philosophy-content h1{font-size: 34px; text-align: center;}
+    .philosophy-content p , .philosophy-content-1 p{font-size: 18px; text-align: center;}
+    .philosophy-heading h1 , .philosophy-content-1 h1{font-size: 37px; text-align: center;}
+    .edit-philosophy-img-2{width: 100%;}
+    .philosophy-content-2{margin-left: 0;}
+    .border-content-img{margin: auto;}
+
+    /* login page  */
+    .primary-btn-9 button{padding: 5px 44px;}
+    .navbar .menus .navbar-collapse{top: 57px;}
+    .dropdown-content a{font-size: 15px;}
+    .dropdown-content{background-color: transparent; box-shadow: none;}
+    .login-form{margin: 0 0;}
+    .border-3 {left: 17px;}
+    .border-4 {right: 16px;}
+
+    /* forgot-password page  */
+    .edit-login-information h5 {
+      margin-bottom: 54px;
+    }
+    .edit-primary-btn-9 {
+      margin-top: 37px;
+    }
+}
+
+
+/*------------------------------- mobile 375px--------------------  ----------------------  */
+@media (max-width:375px){
+
+    /* home page  */
+.newsletter-section::before {font-size: 52px;}
+.primary-btn-3 button{margin-top: 0;}
+.fashion-box-1 h2{font-size: 21px;}
+.hero-content h1 {font-size: 11px;}
+.navbar .menus .navbar-collapse{top: 57px;}
+.navbar .navbar-nav .nav-link.active{font-size: 16px;}
+.navbar .navbar-nav .nav-link{font-size: 16px;}
+.dropdown-content{box-shadow: none; min-width: 172px;font-size: 16px;}
+.dropdown-content a{font-size: 16px;}
+
+/* FAQS PAGE  */
+.frequently-question-section h1{font-size: 36px;}
+.accordian-main-section p{font-size: 16px;}
+.accordion::after {content: '\002B';color: #777;font-size: 30px;float: right;margin-left: 5px;position: absolute;bottom: 0;top: 20px;right: 7px;}
+.accordian-main-section{position:relative ;}
+.accordian-main-section button{font-size: 18px;}
+.follow-us-content-img img{width: 20px; margin-right: 10px;}
+.newsletter {padding-top: 7%;padding-bottom: 29px;}
+.news-letter-second label {font-size: 13px;}
+
+
+/* shipping-details page  */
+.payment-second-box h1 {font-size: 19px;}
+.payment-nav ul li a{font-size: 16px;}
+.shipping-details-2-box P{font-size: 15px;}
+.shipping-payment-content h5{font-size: 16px;}
+.shippng-payment-content-2 h5{font-size: 15px;}
+.shipping-payment-content h1{font-size: 19px;}
+
+/* login-page / */
+.border-3{left: 6px;}
+.border-4 {right: -1px;}
+.primary-btn-9 button{padding: 5px 40px;}
+
+
+/* forgott-password page  */
+.edit-primary-btn-9 {margin-top: 30px;}
+.edit-login-information h5 {margin-bottom: 65px;}
+}
+
+
+/*-------------------------------- mobile 320px------------------------------------------ */
+
+@media (max-width:320px){
+/* home page */
+.second-section-width {width: 100%;padding: 10px;}
+.main-body-content{margin: 0 0;}
+.main-body-img img{width: 100%;}
+.main-box{margin-top: 0;}
+.offcanvas-header{  padding: 0rem 2rem !important;}
+.second-heading h1{font-size: 27px}
+.fashion-journals-heading h1{font-size: 42px;}
+.fashion-box-1{height: 317px}
+.fashion-box-1 h2{margin-top: 0;font-size: 18px}
+.fashion-box-1 p{font-size: 14px;margin: 0}
+.primary-btn-3 button{font-size: 16px}
+.fourth-second-extra{left: 0;right: 0;margin: auto;text-align: center;font-size: 20px}
+.fourth-second-extra img{margin: auto}
+.popular-catagories-heqading h1{font-size: 25px}
+.popular-catagories-heqading p {font-size: 16px;}
+.discover-first-part h1{font-size: 30px;}
+.discover-content h2{font-size: 20px;}
+.newsletter-section::before {font-size: 37px;}
+.newsletter-content{padding: 0;}
+.news-letter-second label {font-family: var(--secodary-font);font-size: 10px;}
+.follow-us-img img{width: 20px;}
+.navbar-toggler{padding:0 5px;}
+.navbar-light .navbar-toggler-icon{width: 20px;}
+.navbar .search-btn svg.account-icon {margin: 0 15px;}
+/* .navbar .navbar-brand {padding: 0 0 0 70px;} */
+.navbar .search-btn svg {width: 11px;}
+.navbar .search-btn svg {width: 11px;}
+.navbar-brand img {width: 33%;}
+.hero-content h3 {font-size: 8px;}
+.hero-content h1 {font-size: 10px;}
+.primary-btn button {margin-top: 10px;font-size: 7px;}
+.primary-btn button {padding: 3px 10px;}
+.second-content h4{font-size: 10px;}
+.second-content .line {width: 93px;height: 1px;background-color: white;}
+.second-content h2 {position: absolute;top: 66%;left: 21%;}
+.banner-section .carousel .carousel-control-next {width: 21px;height: 10px;position: absolute;top: 50%;right: 0px;transform: translateY(-50%);}
+.banner-section .carousel .carousel-control-prev {width: 23px;height: 27px;position: absolute;top: 50%;left: 0px;transform: translateY(-50%);}
+/* .border-img img{padding: 0;} */
+.border-content p{font-size: 10px;margin: auto;margin-bottom: 20px;}
+
+/* faqs page  */
+
+.follow-us-content-img img {width: 20px; margin-right: 3px;}
+.newsletter{padding-bottom: 33px;}
+.folloe-us-content h6{font-size: 13px;}
+.frequently-question-section h1{font-size: 34px;}
+.accordian-main-section{position:relative ;}
+.accordian-main-section p{font-size: 16px;}
+.accordian-main-section button{font-size: 15px;}
+.folloe-us-content{  align-items: baseline;}
+.newsletter-section .news-letter-input-edit{font-size: 12px;}
+.accordion::after {content: '\002B';color: #777;font-size: 30px;float: right;margin-left: 5px;position: absolute;bottom: 0;top: 20px;right: 0px;}
+
+/* terms and condition page  */
+
+.terms-heading h1{
+    font-size: 26px;
+    margin-bottom: 38px;
+}
+
+/* payment-policy page  */
+.policy-box p{font-size: 16px;}
+
+/* contact us page  */
+.contact-form-edit-1{width: 100% !important;}
+.contact-form-main-details{padding: 17px;}
+.contact-form h1{font-size: 33px;}
+.contact-edit-main-form{width: 100%;}
+.primary-btn-15 button{font-size: 20px;}
+
+
+/* collection page  */
+.catagories-section-edit{width: 100% !important;}
+
+/* lookbook page  */
+.look-book-content h1 , .lookbook-second-content h1 , .lookbook-second-content-1 h1{font-size: 22px;}
+.lookbook-second-content-1 p , .lookbook-second-content p{font-size: 14px;}
+.product-second-content h1{margin-top: 0;}
+.primary-btn-10 button{font-size: 13px;}
+
+/* clear-cart-popup  */
+.empty-section h1{font-size: 30px;}
+
+/* payment-details page  */
+.payment-nav ul{margin: 0; padding: 0;}
+.payment-nav ul li a {font-size: 14px;}
+.form-first-name-edit, .form-last-name-edit {width: 48%;}
+.edit-city-input{width: 100%;}
+.edit-state-input{width: 100%;}
+.edit-PIN-input{width: 100%;}
+.payment-second-main-content img{width: 100%;}
+.payment-second-content{margin-left: 0; margin: 20px 0;}
+
+/* shipping-details page  */
+.payment-first-box {width: 100%;padding: 10px 20px 10px 20px;border-right: none;}
+
+  /* about-us page  */
+  .about-us-second-content h1{font-size: 23px;}
+  .about-us-second-content p{padding: 0 10;}
+  .about-us-second-content p
+  .about-us-second-content p {font-size: 15px;}
+  .about-us-second-content p{padding: 0 5px; font-size: 13px;}
+  .about-third-section-content h1 {font-size: 20px;}
+  .about-third-section-content p{font-size: 15px;}
+  .about-third-section-content-2 .second-img {transform: translate(100px, -50px);}
+  .philosophy-heading h1{font-size: 37px;}
+  .philosophy-content , .philosophy-content-1 ,.philosophy-content-2{margin-left: 0; text-align: center;}
+  .philosophy-content h1 , .philosophy-content-1 h1 , .philosophy-content-2 h1{font-size: 30px;}
+  .philosophy-content p , .philosophy-content-1 p , .philosophy-content-2 p{font-size: 15px;}
+
+
+
+  /* login-page  */
+  .primary-btn-9 button{    padding: 5px 23px; font-size: 16px;}
+  .border-3 {left: 1px;}
+  .border-4 {right: -7px;}
+  .search-icon-1{top: 13px;right: -25px;font-size: 17px;}
+  .dropdown-content a{padding: 10px 2px;}
+  .login-form{margin: 0 0;}
+  .login-inforation h5{    margin: 0 20px;}
+
+
+  /* forgot-password page  */
+  .edit-login-information h5{  margin-bottom: 53px;}
+  .edit-primary-btn-9 {  margin-top: 20px;}
+  .login-inforation h1 {
+    font-size: 26px;
+  }
+  .login-inforation h5 {
+    font-size: 13px;
+  }
+}

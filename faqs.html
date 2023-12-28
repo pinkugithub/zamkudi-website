@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQS</title>
+    <!-- css link -->
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/media.css">
+
+ <!-- font-awesome link -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+ <!-- bootstrapt-link -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+<!-- header-section -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-light-1 justtify-content-space" id="myHeader">
+    <div class="container-fluid">
+        <div class="menus">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav edit-nav mb-2 mb-lg-0">
+                    <li class="nav-item-2 mr-4">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lookbook.html">LOOKBOOK</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown edit-dropdown">
+                            <div class="dropdown-icon-content">
+                        <a class="nav-link nav-link-1" 
+                         href="collection.html">COLLECTION </a>
+                        <i class="fa-solid fa-caret-down" id="dropdownIcon"></i>
+                    </div>
+                        <div class="dropdown-content" id="dropdownContent">
+                            <ul>
+                                <li>
+                                  <a href="#">Briefcase Bag</a>
+                                </li>
+                                <li>
+                                  <a href="#">Casual Bag</a>
+                                </li>
+                                <li>
+                                  <a href="#">Cowhide Leather</a>
+                                </li>
+                                <li>
+                                  <a href="#">Crossgrain Bag</a>
+                                </li>
+                                <li>
+                                  <a href="#">Travel Backpack</a>
+                                </li>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- logo-section -->
+
+        <a class="navbar-brand" href="#">
+            <img src="images/logo 1.png" alt="">
+        </a>
+
+        <div class="search-btn search-btn-1 ">
+            <h3><a href="contact.html" class="contact-name">CONATCT</a></h3>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" class="search-icon"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                <path
+                    d="M11.2441 0.00472435C8.26351 0.00972115 5.40643 1.19597 3.29884 3.30356C1.19124 5.41116 0.0049968 8.26823 0 11.2488C0.00249107 14.2319 1.18733 17.0924 3.29493 19.2035C5.40252 21.3147 8.26101 22.5043 11.2441 22.5118C13.8898 22.5118 16.3276 21.5811 18.2551 20.0409L22.937 24.7228C23.1742 24.9434 23.4876 25.0634 23.8114 25.0577C24.1353 25.0521 24.4443 24.9211 24.6736 24.6924C24.9029 24.4637 25.0347 24.155 25.0412 23.8312C25.0478 23.5074 24.9286 23.1937 24.7087 22.9559L20.0268 18.2693C21.6258 16.2806 22.4975 13.8054 22.4976 11.2535C22.4976 5.05512 17.4425 0.00472435 11.2441 0.00472435ZM11.2441 2.50866C16.0913 2.50866 19.9937 6.4063 19.9937 11.2488C19.9937 16.0913 16.0913 20.0126 11.2441 20.0126C6.39685 20.0126 2.49921 16.1055 2.49921 11.2583C2.49921 6.41102 6.39685 2.50866 11.2441 2.50866Z"
+                    fill="white" />
+            </svg>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                    <form>
+                        <input type="text" placeholder="Search Our Catalog" id="text" class="edit-input">
+                        <div class="search-icon-1">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </form>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+            </div>
+           <a href="login.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 30" class="account-icon">
+                <path
+                    d="M17.215 13.9104C19.1346 12.5105 20.3846 10.2448 20.3846 7.6923C20.3846 3.45076 16.9338 0 12.6923 0C8.45074 0 4.99998 3.45076 4.99998 7.6923C4.99998 10.2448 6.24996 12.5105 8.16961 13.9104C3.39773 15.7365 0 20.3631 0 25.7692C0 28.1021 1.89791 30 4.23076 30H21.1538C23.4867 30 25.3846 28.1021 25.3846 25.7692C25.3846 20.3631 21.9868 15.7365 17.215 13.9104ZM7.3077 7.6923C7.3077 4.72324 9.72322 2.30771 12.6923 2.30771C15.6613 2.30771 18.0769 4.72324 18.0769 7.6923C18.0769 10.6614 15.6613 13.077 12.6923 13.077C9.72322 13.077 7.3077 10.6614 7.3077 7.6923ZM21.1538 27.6923H4.23076C3.17039 27.6923 2.30771 26.8296 2.30771 25.7692C2.30771 20.043 6.96615 15.3846 12.6923 15.3846C18.4185 15.3846 23.077 20.043 23.077 25.7692C23.0769 26.8296 22.2142 27.6923 21.1538 27.6923Z"
+                    fill="white" />
+            </svg>
+           </a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="cart-icon" class="btn"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <path
+                    d="M15.0003 16.7063C13.6993 16.7079 12.438 16.2585 11.4312 15.4345C10.4243 14.6106 9.73425 13.4632 9.47839 12.1876C9.458 12.0532 9.46706 11.916 9.50495 11.7855C9.54284 11.655 9.60865 11.5343 9.69783 11.4317C9.78701 11.3292 9.89741 11.2473 10.0214 11.1916C10.1454 11.136 10.28 11.1079 10.4159 11.1095C10.6392 11.1062 10.8564 11.1828 11.0283 11.3255C11.2001 11.4681 11.3154 11.6675 11.3534 11.8876C11.53 12.7303 11.9911 13.4866 12.6595 14.0295C13.3279 14.5723 14.1627 14.8686 15.0237 14.8686C15.8847 14.8686 16.7195 14.5723 17.3879 14.0295C18.0563 13.4866 18.5175 12.7303 18.694 11.8876C18.732 11.6675 18.8473 11.4681 19.0191 11.3255C19.191 11.1828 19.4082 11.1062 19.6315 11.1095C19.7674 11.1079 19.902 11.136 20.026 11.1916C20.15 11.2473 20.2604 11.3292 20.3496 11.4317C20.4388 11.5343 20.5046 11.655 20.5425 11.7855C20.5803 11.916 20.5894 12.0532 20.569 12.1876C20.3116 13.4711 19.6146 14.6247 18.5981 15.4495C17.5816 16.2743 16.3093 16.7188 15.0003 16.7063Z"
+                    fill="white" />
+                <path
+                    d="M23.3439 29.0626H6.65635C6.27487 29.0631 5.89728 28.9859 5.54655 28.8359C5.19582 28.6858 4.87928 28.466 4.61619 28.1898C4.3531 27.9135 4.14896 27.5866 4.01619 27.229C3.88341 26.8714 3.82478 26.4905 3.84385 26.1095L4.60323 9.94697C4.63465 9.22238 4.94479 8.53793 5.46887 8.03657C5.99294 7.5352 6.69045 7.25567 7.41573 7.25635H22.5845C23.3098 7.25567 24.0073 7.5352 24.5313 8.03657C25.0554 8.53793 25.3655 9.22238 25.397 9.94697L26.1564 26.1095C26.1754 26.4905 26.1168 26.8714 25.984 27.229C25.8512 27.5866 25.6471 27.9135 25.384 28.1898C25.1209 28.466 24.8044 28.6858 24.4536 28.8359C24.1029 28.9859 23.7253 29.0631 23.3439 29.0626ZM7.41573 9.14072C7.16708 9.14072 6.92863 9.2395 6.75281 9.41531C6.577 9.59113 6.47823 9.82958 6.47823 10.0782L5.71885 26.2032C5.71249 26.3302 5.73204 26.4572 5.7763 26.5764C5.82055 26.6956 5.8886 26.8046 5.9763 26.8967C6.064 26.9887 6.16951 27.062 6.28642 27.112C6.40333 27.162 6.52919 27.1878 6.65635 27.1876H23.3439C23.471 27.1878 23.5969 27.162 23.7138 27.112C23.8307 27.062 23.9362 26.9887 24.0239 26.8967C24.1116 26.8046 24.1796 26.6956 24.2239 26.5764C24.2682 26.4572 24.2877 26.3302 24.2814 26.2032L23.522 10.0407C23.522 9.79208 23.4232 9.55363 23.2474 9.37781C23.0716 9.202 22.8331 9.10322 22.5845 9.10322L7.41573 9.14072Z"
+                    fill="white" />
+                <path
+                    d="M20.625 8.20312H18.75V6.5625C18.75 5.56794 18.3549 4.61411 17.6516 3.91085C16.9484 3.20759 15.9946 2.8125 15 2.8125C14.0054 2.8125 13.0516 3.20759 12.3483 3.91085C11.6451 4.61411 11.25 5.56794 11.25 6.5625V8.20312H9.375V6.5625C9.375 5.07066 9.96763 3.63992 11.0225 2.58502C12.0774 1.53013 13.5082 0.9375 15 0.9375C16.4918 0.9375 17.9226 1.53013 18.9775 2.58502C20.0324 3.63992 20.625 5.07066 20.625 6.5625V8.20312Z"
+                    fill="white" />
+            </svg>
+            <div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="container">
+                            <div class="modal-header">
+                                <h1>The are 1 products</h1>
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+
+                            <!-- modal body   -->
+
+                            <div class="main-body">
+                                <div class="main-body-content-1">
+                                    <div class="d-flex align-item-center">
+                                        <div class="main-body-img">
+                                            <img src="images/purce-1.jpg" alt="">
+                                        </div>
+                                        <div class="main-body-content ">
+                                            <h1>The easy bagpack</h1>
+                                            <h2>1*₹800.00 </h2>
+                                            <div class="d-flex">
+                                                <div class="main-box d-flex">
+                                                    <div class="box-1">
+                                                        <input type="button" name="" value="+" onclick="sum();"
+                                                            class="model-input-edit border-input-edit">
+                                                    </div>
+                                                    <div class="box-2">
+                                                        <input type="text" name="" id="count" placeholder="1"
+                                                            readonly class="model-input-edit border-input-edit">
+                                                    </div>
+                                                    <div class="box-3">
+                                                        <input type="button" name="" value="-" onclick="sub();"
+                                                            class="model-input-edit">
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="dustbin">
+                                                    <img src="images/dustbin.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="sub-total">
+                                    <div class="d-flex align-item-center justify-content-space">
+                                        <h1>sub Total : </h1>
+                                        <h4> ₹800.00</h4>
+                                    </div>
+                                </div>
+                                <div class="primary-btn-2">
+                                    <a href="product-popup.html">
+                                        <button>view cart</button>
+                                    </a>
+                                  
+                                </div>
+                                <div class="primary-btn-2 edit-primary-btn-2">
+                                   <a href="payment-details.html">
+                                    <button>checkout</button>
+                                   </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</nav>
+</div>
+
+
+
+<!--------------------------------- Frequently asked questions section ------------------ -->
+
+
+<section class="frequently-question-section margin-top">
+    <div class="container">
+        <h1>Frequently asked questions</h1>
+
+
+        <div class="accordian-main-section">
+            <button class="accordion">How do I change my password?</button>
+            <div class="panel">
+              <p>You can change your password for security reasons or reset it if you forget it. Your Google Account password is used to access many Google products, like Gmail and YouTube.If you're having trouble resetting your password or can’t sign in to your account, get more help.</p>
+            </div>
+            </div>
+         
+
+        <div class="accordian-main-section">
+            <button class="accordion">How do I sign up?</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            </div>
+
+
+        <div class="accordian-main-section">
+        <button class="accordion">Can I remove a post?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        </div>
+
+        <div class="accordian-main-section">
+        <button class="accordion">How do reviews work?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        </div>
+        
+    </div>
+
+</section>
+
+
+
+<section class="frequently-question-section">
+    <div class="container">
+        <h1>Shipping Policy</h1>
+
+
+        <div class="accordian-main-section">
+            <button class="accordion">How does syncing work?</button>
+            <div class="panel">
+              <p>Quae quidem blanditiis delectus corporis, possimus officia sint sequi ex tenetur id impedit est pariatur iure animi non a ratione reiciendis nihil sed consequatur atque repellendus fugit perspiciatis rerum et. Dolorum consequuntur fugit deleniti, soluta fuga nobis. Ducimus blanditiis velit sit iste delectus obcaecati debitis omnis,</p>
+            </div>
+            </div>
+         
+
+        <div class="accordian-main-section">
+            <button class="accordion">Can I have an invoice for my subscription?</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            </div>
+
+
+        <div class="accordian-main-section">
+        <button class="accordion">How do I upload files from my phone or tablet?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        </div>
+
+        <div class="accordian-main-section">
+        <button class="accordion">Why does my bank statement show multiple charges for one upgrade?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        </div>
+        
+    </div>
+
+</section>
+
+<section class="frequently-question-section">
+    <div class="container">
+        <h1>Orders & Delivery</h1>
+
+
+        <div class="accordian-main-section">
+            <button class="accordion">How can I find your international delivery information?</button>
+            <div class="panel">
+              <p>Quae quidem blanditiis delectus corporis, possimus officia sint sequi ex tenetur id impedit est pariatur iure animi non a ratione reiciendis nihil sed consequatur atque repellendus fugit perspiciatis rerum et. Dolorum consequuntur fugit deleniti, soluta fuga nobis. Ducimus blanditiis velit sit iste delectus obcaecati debitis omnis,</p>
+            </div>
+            </div>
+         
+
+        <div class="accordian-main-section">
+            <button class="accordion">What should I do if my order hasn't been delivered yet?</button>
+            <div class="panel">
+              <p>You can find the official customer care number or email id of the e-commerce company on its website or app. Make sure to call the official customer care number and don't simply call up the number which appears on Google. There are many fake customer care set ups to cheat</p>
+            </div>
+            </div>
+
+
+        <div class="accordian-main-section">
+        <button class="accordion">How do I activate my account?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        </div>
+
+        <div class="accordian-main-section">
+        <button class="accordion">Who takes care of shipping?</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        </div>
+        
+    </div>
+
+</section>
+
+ <!-- .NEWS-LETTER-SECTION  -->
+
+ <section class="newsletter-section margin-top">
+    <div class="newsletter">
+        <div class="container">
+            <div class="d-flex justify-content-space newsletter-content">
+                <input type="text" placeholder="Enter your email address" id="text" class="news-letter-input-edit">
+
+                <div class="folloe-us-content d-flex">
+                    <div class="follow-us-img">
+                        <img src="images/sms.png" alt="">
+                    </div>
+                    <h6>follow us</h6>
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-space news-letter-second">
+                <div class="news-letter-second-edit d-flex align-items-center">
+                    <input type="checkbox" id="text" class="edit-newsletter">
+                    <label>i agree to the privacy policy</label>
+                </div>
+                <div class="folloe-us-content d-flex">
+                    <div class="follow-us-content-img">
+                        <img src="images/printrest.png" alt="">
+                    </div>
+                    <div class="follow-us-content-img">
+                        <img src="images/insta.png" alt="">
+                    </div>
+                    <div class="follow-us-content-img">
+                        <img src="images/face-book.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+</section>
+
+<!-- FOOTER-SECTION  -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-logo-img">
+            <img src="images/WHITE LOGO 1.png" alt="">
+        </div>
+        <ul class="d-flex justify-content">
+            <li>
+                <a href="about-us.html">ABOUT US </a><span>|</span>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT US </a><span>|</span>
+            </li>
+            <li>
+                <a href="faqs.html">FAQS </a><span>|</span>
+            </li>
+            <li>
+                <a href="payment-policy.html">PAYMENT POLICY </a><span>|</span>
+            </li>
+            <li>
+                <a href="terms and condition.html"> tEAMS & CONDITION </a><span>|</span>
+            </li>
+        </ul>
+        <div class="border-img">
+            <img src="images/Line 2.png" alt="">
+        </div>
+        <div class="border-content d-flex justify-content-space">
+            <p>Copyright 2023 Ecommerce By <span> Zamkudi PurseTM</span> </p>
+
+            <div class="border-content-img">
+                <img src="images/image 20.png" alt="">
+                <img src="images/image 19.png" alt="">
+                <img src="images/image 21.png" alt="">
+                <img src="images/image 18.png" alt="">
+                <img src="images/image 22.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+
+
+
+    
+<!-- bootstrap-bundle-link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
